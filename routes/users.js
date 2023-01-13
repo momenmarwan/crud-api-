@@ -5,7 +5,9 @@ import {v4 as uuidv4} from 'uuid' ;
 
 const router = express.Router() ;
 
-let users = []
+let users = [
+{"name" : "moomen" , "age" : 20},{"name" : "ahmad" , "age" : 20},{"name" : "husom" , "age" : 20}
+]
 
 router.get('/' , (req , res) => {
     console.log(users)
