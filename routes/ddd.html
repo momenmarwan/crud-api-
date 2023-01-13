@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Max Mark</title>
+  </head>
+  <body>
+    <script>
+      function findMaxMark() {
+        var mark1 = parseInt(prompt("Enter the mark of student 1:"));
+        var mark2 = parseInt(prompt("Enter the mark of student 2:"));
+        var mark3 = parseInt(prompt("Enter the mark of student 3:"));
+        
+        var maxMark = Math.max(mark1, mark2, mark3);
+        alert("The maximum mark is: " + maxMark);
+      }
+    </script>
+    <button onclick="findMaxMark()">Find Maximum Mark</button>
+  </body>
+</html>
